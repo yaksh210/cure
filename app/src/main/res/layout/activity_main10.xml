@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    tools:context=".MainActivity10">
+
+    <EditText
+        android:id="@+id/pat_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#3BB0E4"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Mobile_number"
+        android:inputType="phone"
+        android:textColor="#3BB0E4"
+        android:textColorHint="#3BB0E4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescription"
+        android:textAlignment="center"
+        android:textColor="#3BB0E4"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <EditText
+        android:id="@+id/message_sent"
+        android:layout_width="405dp"
+        android:layout_height="262dp"
+        android:backgroundTint="#3BB0E4"
+        android:gravity="top"
+        android:text="Prescription :"
+        android:inputType="textMultiLine"
+        android:textColor="#3BB0E4"
+        android:textColorHint="#3BB0E4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <Button
+        android:id="@+id/send_m"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_design"
+        android:text="Send "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

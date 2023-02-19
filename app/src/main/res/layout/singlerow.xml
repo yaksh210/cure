@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txtfirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:textColor="#3BB0E4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtfname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/txtfirstname"
+            android:text="enter your first name"
+            android:textColor="#3bb0e4"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:id="@+id/txtlastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtfirstname"
+            android:text="Last Name :"
+            android:textColor="#3BB0E4"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtlname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtfname"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/txtlastname"
+            android:text="enter your last name"
+            android:textColor="#3bb0e4"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtemailid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtlastname"
+            android:text="Email:"
+            android:textColor="#3BB0E4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtlname"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/txtemailid"
+            android:text="abc@gmail.com"
+            android:textColor="#3bb0e4"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtemailid"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:text="update"
+            android:background="@drawable/btn_design"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtemail"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/edit"
+            android:background="@drawable/btn_design"
+            android:text="delete"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

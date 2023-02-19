@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    tools:context=".MainActivity11">
+
+    <TextView
+        android:id="@+id/writeup2"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:textAlignment="gravity"
+        android:text="---> The application basically helps you to connect digitally. At the times like corona pandemic, we all try to avoid the stituations where
+we need to interact socially. As for these times the application helps you to do the things digitally possible. The application is helpfull
+for the areas like hospitals or clinics where we do not want to touch the paper or the pen."
+        android:textColor="#3BB0E4"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/writeup4"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:text="---> One command and everything is in the application. The application eases the human work and the paper work is also reduced.
+Alongside the data is more secured with the help of computerized effects."
+        android:textColor="#3BB0E4"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <TextView
+        android:id="@+id/writeup3"
+        android:layout_width="380dp"
+        android:layout_height="170dp"
+        android:text="---> The application has the feature of voice command and behave accordingly. The doctor do not need to touch the paper or pen to
+write the prescription niether the patient needs give the money physically. With the help of application, the doctor can command the
+prescription and it will be sent to the adequate patient. The payment gateway is also available for the patients as well as doctors to
+transfer the money."
+        android:textColor="#3BB0E4"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <TextView
+        android:id="@+id/writeup"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="What do this application do?"
+        android:textColor="#3BB0E4"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <TextView
+        android:id="@+id/writeup6"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:text="Copyright © 2021 By Cureplea0702@gmail.com"
+        android:textColor="#3BB0E4"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="#3BB0E4"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

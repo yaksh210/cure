@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Cure</string>
+    <string name="dialog_title">Log-Off</string>
+    <string name="dialog_message">want to log-off</string>
+
+
+    <string-array name="Symptoms">
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>cold and fever</item>
+        <item>Headache</item>
+        <item>Cold</item>
+        <item>Stomachache</item>
+        <item>Muscle-pain</item>
+    </string-array>
+
+    <string-array name="Drugs">
+        <item>Promethazine</item>
+        <item>Paracetamol-500mg</item>
+        <item>Caffeine+Paracetamol</item>
+        <item>Acelofenac+Paracetamol</item>
+        <item>Cetrizine</item>
+        <item>Paracetamol</item>
+        <item>Pantoprazole+Domperidone</item>
+
+    </string-array>
+
+    <string-array name="Brand">
+
+        <item>Avomine</item>
+        <item>Metacine/Dolo</item>
+        <item>Diominic-DCA</item>
+        <item>Hifenac-P</item>
+        <item>Cetrizite</item>
+        <item>Calpol</item>
+        <item>PAN-D</item>
+    </string-array>
+
+    <string-array name="Dosage">
+        <item>Morning(1tb 5 days)</item>
+        <item>Morning and evening(1tb 5days)</item>
+        <item>Morning(1tb 10days)</item>
+        <item>Morning and evening(1tb 10days)</item>
+    </string-array>
+
+</resources>
